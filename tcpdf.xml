@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="library" version="3.0" method="upgrade">
+	<name>TCPDF</name>
+	<libraryname>tcpdf</libraryname>
+	<version>5.9.202</version>
+	<description>LIB_TCPDF_XML_DESCRIPTION</description>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Bruno Batista</author>
+	<authorEmail>bruno@atomtech.com.br</authorEmail>
+	<authorUrl>http://www.atomtech.com.br</authorUrl>
+	<packager>tcpdf</packager>
+	<packagerurl>http://www.atomtech.com.br</packagerurl>
+	<updateservers>http://www.atomtech.com.br/update</updateservers>
+	<files folder="libraries">
+		<folder>tcpdf</folder>
+	</files>
+	<languages>
+		<language tag="pt-BR">language/pt-BR/pt-BR.lib_tcpdf.sys.ini</language>
+	</languages>
+</extension>
