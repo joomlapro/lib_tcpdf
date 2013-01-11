@@ -7,6 +7,14 @@ TCPDF Library helps applications to generate PDF files for CMS Joomla! 3.0.
 
 Just download and install.
 
+## Usage
+
+Add this code to head of file to import TCPDF class:
+
+jimport('tcpdf.tcpdf');
+
+* [TCPDF Examples](http://www.tcpdf.org/examples.php)
+
 ## Authors
 
 * Bruno Batista
