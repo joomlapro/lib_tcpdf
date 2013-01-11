@@ -13,8 +13,31 @@
 	<packager>tcpdf</packager>
 	<packagerurl>http://www.atomtech.com.br</packagerurl>
 	<updateservers>http://www.atomtech.com.br/update</updateservers>
-	<files folder="libraries">
-		<folder>tcpdf</folder>
+	<files folder="tcpdf">
+		<file>2dbarcodes.php</file>
+		<file>barcodes.php</file>
+		<file>CHANGELOG.TXT</file>
+		<file>composer.json</file>
+		<file>datamatrix.php</file>
+		<file>encodings_maps.php</file>
+		<file>htmlcolors.php</file>
+		<file>index.html</file>
+		<file>LICENSE.TXT</file>
+		<file>pdf417.php</file>
+		<file>qrcode.php</file>
+		<file>README.TXT</file>
+		<file>spotcolors.php</file>
+		<file>sRGB.icc</file>
+		<file>tcpdf.crt</file>
+		<file>tcpdf.fdf</file>
+		<file>tcpdf.p12</file>
+		<file>tcpdf.php</file>
+		<file>tcpdf_filters.php</file>
+		<file>tcpdf_parser.php</file>
+		<file>unicode_data.php</file>
+		<folder>cache</folder>
+		<folder>config</folder>
+		<folder>fonts</folder>
 	</files>
 	<languages>
 		<language tag="pt-BR">language/pt-BR/pt-BR.lib_tcpdf.sys.ini</language>
