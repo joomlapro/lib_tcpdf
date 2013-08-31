@@ -1,45 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<extension type="library" version="3.0" method="upgrade">
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="library" version="3.1" method="upgrade">
 	<name>TCPDF</name>
 	<libraryname>tcpdf</libraryname>
-	<version>5.9.202</version>
-	<description>LIB_TCPDF_XML_DESCRIPTION</description>
-	<creationDate>January 2013</creationDate>
-	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<author>Bruno Batista</author>
+	<creationDate>Aug 2013</creationDate>
+	<copyright>Copyright (C) 2013 AtomTech IT Services. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>bruno@atomtech.com.br</authorEmail>
 	<authorUrl>http://www.atomtech.com.br</authorUrl>
+	<version>1.0</version>
+	<description>LIB_TCPDF_XML_DESCRIPTION</description>
 	<packager>tcpdf</packager>
 	<packagerurl>http://www.atomtech.com.br</packagerurl>
 	<updateservers>http://www.atomtech.com.br/update</updateservers>
+	<scriptfile />
 	<files folder="tcpdf">
-		<file>2dbarcodes.php</file>
-		<file>barcodes.php</file>
-		<file>CHANGELOG.TXT</file>
-		<file>composer.json</file>
-		<file>datamatrix.php</file>
-		<file>encodings_maps.php</file>
-		<file>htmlcolors.php</file>
-		<file>index.html</file>
-		<file>LICENSE.TXT</file>
-		<file>pdf417.php</file>
-		<file>qrcode.php</file>
-		<file>README.TXT</file>
-		<file>spotcolors.php</file>
-		<file>sRGB.icc</file>
-		<file>tcpdf.crt</file>
-		<file>tcpdf.fdf</file>
-		<file>tcpdf.p12</file>
-		<file>tcpdf.php</file>
-		<file>tcpdf_filters.php</file>
-		<file>tcpdf_parser.php</file>
-		<file>unicode_data.php</file>
-		<folder>cache</folder>
 		<folder>config</folder>
 		<folder>fonts</folder>
+		<folder>include</folder>
+		<folder>tools</folder>
+		<filename>CHANGELOG.TXT</filename>
+		<filename>composer.json</filename>
+		<filename>index.html</filename>
+		<filename>LICENSE.TXT</filename>
+		<filename>README.TXT</filename>
+		<filename>tcpdf.php</filename>
+		<filename>tcpdf_autoconfig.php</filename>
+		<filename>tcpdf_barcodes_1d.php</filename>
+		<filename>tcpdf_barcodes_2d.php</filename>
+		<filename>tcpdf_import.php</filename>
+		<filename>tcpdf_parser.php</filename>
 	</files>
-	<languages>
-		<language tag="pt-BR">language/pt-BR/pt-BR.lib_tcpdf.sys.ini</language>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.lib_tcpdf.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.lib_tcpdf.sys.ini</language>
 	</languages>
 </extension>
