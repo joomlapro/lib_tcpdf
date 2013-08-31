@@ -1,7 +1,11 @@
-TCPDF Library for Joomla! 3.0
+TCPDF Library for Joomla! 3.x
 =============================
 
-TCPDF Library helps applications to generate PDF files for CMS Joomla! 3.0.
+TCPDF Library helps applications to generate PDF files for CMS Joomla! 3.x.
+
+### TCPDF Library Version
+
+v6.0.023
 
 ## Installation
 
